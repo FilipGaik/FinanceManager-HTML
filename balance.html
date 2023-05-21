@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finance Manager</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="webheader">
+      <h1><a href="./home.html">Finance Manager</a> <span>by Filip Gaik</span></h1>
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <nav class="topnav">
+        <ul class="topnavmenu">
+          <li><a href="./addincome.html">Add income</a></li>
+          <li><a href="./addexpense.html">Add expense</a></li>
+          <li><a href="./balance.html">Balance</a></li>
+          <li><a href="">Settings</a></li>
+          <li><a href="./index.html">Log out</a></li>
+        </ul>
+      </nav>
+
+      <section class="menu">
+        <h2>Balance review:</h2>
+        <fieldset>
+          <legend>Select period</legend>
+          <div>
+            <input type="radio" id="current-month" name="period" value="current-month" checked>
+            <label for="current-month">Current month</label>
+            <br>
+            <input type="radio" id="previous" name="period" value="previous">
+            <label for="bank">Previous month</label>
+            <br>
+            <input type="radio" id="current-year" name="period" value="current-year">
+            <label for="current-year">Current year</label>
+            <br>
+          </div>
+
+          <div class="other-period">
+            <input type="radio" id="other" name="period" value="other">
+            <label for="other">Other period</label>
+            <br>
+            <p>From:</p>
+            <input type="date" name="" id="">
+            <br>
+            <p>To:</p>
+            <input type="date" name="" id="">
+          </div>
+
+            <a href="./balance-current-month.html">
+              <button class="btn btn-primary">Show balance</button>
+            </a>
+    
+        </fieldset>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    <div class="info">
+      <p>Copyright &copy; by Filip Gaik 2023</p>
+    </div>
+  </footer>
+</body>
+</html>

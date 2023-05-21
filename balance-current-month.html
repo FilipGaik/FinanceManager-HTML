@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finance Manager</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="webheader">
+      <h1><a href="./home.html">Finance Manager</a> <span>by Filip Gaik</span></h1>
+    </div>
+  </header>
+
+  <main class="bal-cur-mon">
+    <article>
+
+      <nav class="topnav">
+        <ul class="topnavmenu">
+          <li><a href="./addincome.html">Add income</a></li>
+          <li><a href="./addexpense.html">Add expense</a></li>
+          <li><a href="./balance.html">Balance</a></li>
+          <li><a href="">Settings</a></li>
+          <li><a href="./index.html">Log out</a></li>
+        </ul>
+      </nav>
+
+      <section class="menu balance">
+        <h2>Current month balance:</h2>
+          <div class="incomes-expenses">
+            <h3>Incomes</h3>
+            <p>Salary: 5000.00</p>
+          </div>
+
+          <div class="incomes-expenses">
+            <h3>Expenses</h3>
+            <p style="color: orange;">Food: 1500.00</p>
+            <p style="color: pink;">Clothes: 300.00</p>
+            <p style="color: lightblue;">Trip: 1200.00</p>
+          </div>
+
+          <div class="incomes-expenses bal">
+            <h3>Balance: 2000.00</h3>
+            <p class="good">Congratulations! You manage your finances very well.</p>
+          </div>
+
+          <div class="incomes-expenses">
+            <h3>Your expenses</h3>
+            <div class="piechart"></div>
+          </div>
+        
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    <div class="info">
+      <p>Copyright &copy; by Filip Gaik 2023</p>
+    </div>
+  </footer>
+</body>
+</html>

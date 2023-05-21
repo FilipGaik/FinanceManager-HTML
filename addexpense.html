@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finance Manager</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="webheader">
+      <h1><a href="./home.html">Finance Manager</a> <span>by Filip Gaik</span></h1>
+    </div>
+  </header>
+
+  <main class="addexpense-main">
+    <article>
+      <nav class="topnav">
+        <ul class="topnavmenu">
+          <li><a href="./addincome.html">Add income</a></li>
+          <li><a href="./addexpense.html">Add expense</a></li>
+          <li><a href="./balance.html">Balance</a></li>
+          <li><a href="">Settings</a></li>
+          <li><a href="./index.html">Log out</a></li>
+        </ul>
+      </nav>
+
+      <section class="menu">
+
+        <h2>Enter expense data:</h2>
+        <input type="text" placeholder="Enter amount">
+        <input type="date">
+
+        <fieldset>
+          <legend>Payment method</legend>
+          <div>
+            <input type="radio" id="cash" name="payment" value="cash" checked>
+            <label for="cash">Cash</label>
+            <br>
+            <input type="radio" id="debit" name="payment" value="debit">
+            <label for="debit">Debit card</label>
+            <br>
+            <input type="radio" id="credit" name="payment" value="credit">
+            <label for="credit">Credit card</label>
+            <br><br>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Select category</legend>
+          <div>
+            <input type="radio" id="food" name="category" value="food" checked>
+            <label for="food">Food</label>
+            <br>
+            <input type="radio" id="apartment" name="category" value="apartment">
+            <label for="apartment">Apartment</label>
+            <br>
+            <input type="radio" id="transport" name="category" value="transport">
+            <label for="transport">Transport</label>
+            <br>
+            <input type="radio" id="telecommunication" name="category" value="telecommunication">
+            <label for="telecommunication">Telecommunication</label>
+            <br>
+            <input type="radio" id="healthcare" name="category" value="healthcare">
+            <label for="healthcare">Healthcare</label>
+            <br>
+            <input type="radio" id="clothes" name="category" value="clothes">
+            <label for="clothes">Clothes</label>
+            <br>
+            <input type="radio" id="hygiene" name="category" value="hygiene">
+            <label for="hygiene">Hygiene</label>
+            <br>
+            <input type="radio" id="children" name="category" value="children">
+            <label for="children">Children</label>
+            <br>
+            <input type="radio" id="entertainment" name="category" value="entertainment">
+            <label for="entertainment">Entertainment</label>
+            <br>
+            <input type="radio" id="trip" name="category" value="trip">
+            <label for="trip">Trip</label>
+            <br>
+            <input type="radio" id="training" name="category" value="training">
+            <label for="training">Training</label>
+            <br>
+            <input type="radio" id="books" name="category" value="books">
+            <label for="books">Books</label>
+            <br>
+            <input type="radio" id="savings" name="category" value="savings">
+            <label for="savings">Savings</label>
+            <br>
+            <input type="radio" id="retiring" name="category" value="retiring">
+            <label for="retiring">For retiring</label>
+            <br>
+            <input type="radio" id="debt" name="category" value="debt">
+            <label for="debt">Debt repayment</label>
+            <br>
+            <input type="radio" id="donation" name="category" value="donation">
+            <label for="donation">Donation</label>
+            <br>
+            <input type="radio" id="other" name="category" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            <input class="comment" type="text" placeholder="Enter comment (optional)">
+            <br><br>
+            <button class="btn btn-primary add-income-btn">Add expense</button>
+            <button class="btn btn-secondary">Cancel</button>
+          </div>
+        </fieldset>
+
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <div class="info">
+      <p>Copyright &copy; by Filip Gaik 2023</p>
+    </div>
+  </footer>
+  
+</body>
+</html>

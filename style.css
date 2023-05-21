@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  background-color: #dbdfaa;
+  font-family: 'Lato';
+  margin: 0 auto;
+  text-align: center;
+}
+.webheader {
+  background-color: #643843;
+  padding: 20px 0;
+  color: #e7cbcb;
+}
+.webheader a {
+  color: #e7cbcb;
+  text-decoration: none;
+}
+.webheader span {
+  font-size: 16px;
+}
+main {
+  height: 585px;
+}
+.reglog {
+  color: #643843;
+  padding: 40px 20px 20px 20px;
+}
+.reglog h2 {
+  display: inline-block;
+  border: 1px dashed #643843;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.reglog p {
+  font-size: 24px;
+}
+.reglog-bottom {
+  display: inline-block;
+  background-color: #643843;
+  color: #e7cbcb;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 25px;
+}
+.btn {
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.info {
+  background-color: #643843;
+  color: #e7cbcb;
+  padding: 20px;
+}
+.info p {
+  margin: 0;
+}
+.registration-menu {
+  color: #643843;
+  padding-top: 40px;
+  width: 250px;
+  display: inline-block;
+}
+.registration-menu h2 {
+  margin-bottom: 30px;
+}
+.registration-menu input {
+  margin-bottom: 10px;
+  width: 250px;
+}
+.registration-menu button {
+  margin-top: 20px;
+}
+.topnav {
+  background-color: #e7cbcb;
+}
+.topnavmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 200%;
+}
+.topnavmenu li {
+  display: inline-block;
+  padding: 0 20px;
+  border-right: 1px dashed #643843;
+}
+.topnavmenu li:last-child {
+  border-right: none;
+}
+.topnavmenu a {
+  color: #643843;
+  text-decoration: none;
+}
+.topnavmenu a:hover {
+  color: #1c74b2;
+}
+.menu {
+  display: inline-block;
+  width: 280px;
+  background-color: #643843;
+  color: #e7cbcb;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.menu > input {
+  width: 250px;
+  margin-top: 15px;
+}
+.menu fieldset div {
+  text-align: left;
+  margin-left: 5px;
+}
+.comment {
+  width: 250px;
+}
+.add-income-btn {
+  margin-left: 15px;
+}
+.menu fieldset div button:last-child {
+  margin-left: 25px;
+}
+.addexpense-main {
+  height: 1020px;
+}
+.other-period {
+  border: 1px dashed #e7cbcb;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.other-period p {
+  display: inline-block;
+  margin-left: 18px;
+}
+.other-period input[type="date"] {
+  margin: 5px 0 0 10px;
+}
+.other-period input:last-child {
+  margin-left: 30px;
+}
+.balance {
+  width: 600px;
+}
+.incomes-expenses {
+  width: 45%;
+  border: 1px solid #e7cbcb;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.incomes-expenses h3 {
+  border-bottom: 1px solid #e7cbcb;
+  margin: 0 10px;
+}
+.bal {
+  display: block;
+  margin: 0 auto 10px;
+}
+.good {
+  color: greenyellow;
+}
+.piechart {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    orange 0 180deg,
+    pink 180deg 216deg,
+    lightblue 216deg 360deg
+  );
+  margin: 10px auto;
+}
+.bal-cur-mon {
+  height: auto;
+  margin-bottom: 30px;
+}
